@@ -6,7 +6,7 @@ properties([
         ])
 ])
 
-node("jenkins-slave") {
+node("master") {
 
     stage("Checkout") {
       checkout scm
